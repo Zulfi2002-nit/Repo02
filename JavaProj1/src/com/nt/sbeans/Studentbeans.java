@@ -3,6 +3,8 @@ package com.nt.sbeans;
 public class Studentbeans {
 	String sName;
 	int sId;
+	int sAge;
+	
 	
 	//setter and getters method
 	
@@ -18,6 +20,13 @@ public class Studentbeans {
 	public void setsId(int sId) {
 		this.sId = sId;
 	}
+	public int getsAge() {
+		return sAge;
+	}
+	public void setsAge(int sAge) {
+		this.sAge = sAge;
+	}
+	
 	
 	
 }
